@@ -258,9 +258,20 @@ nav .logo img {
 }
 
 .brain-info{
-
+  display: inline;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
 }
-
+.brain-info p{
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 20px;
+  
+}
 /* Footer Section */
 #footer{
   padding: 120px 120px 0;
