@@ -244,6 +244,22 @@ nav .logo img {
   line-height: 20px;
   text-align: center;
 }
+/*  Brain information section */
+#brain{
+
+}
+
+.brain-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding-bottom: 120px;
+}
+
+.brain-info{
+
+}
 
 /* Footer Section */
 #footer{
