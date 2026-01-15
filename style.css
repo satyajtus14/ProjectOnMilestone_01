@@ -27,6 +27,7 @@
     font-weight: bold;
     color: white;
     cursor: pointer;
+    text-align: center;
   }
 
   .text-center{
@@ -35,7 +36,18 @@
     text-align: center;
   }
 
+  .btn-display{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+  }
 
+  .btn-img{
+        width: 20px;
+        height: 20px;
+        display: inline;
+  }
 
 
 /* All Main styles Properties */
@@ -130,23 +142,22 @@ nav .logo img {
     margin-bottom: 84px auto;
     line-height: 50px;
   } 
-.btn-2{
-  background-color:rgb(69, 66, 66);
-  border: none;
+
+  /* .btn .text-center:start */
+
+#btn-2{
+  background-color:rgb(69, 66, 66,0.5);
+  color: white;
+  border: 1px solid white;
+  background: none;
   padding: 12px 16px;
   border-radius: 4px;
   font-size: 16px;
-  font-weight: bold;
-  color: white;
+  font-weight: 500;
   cursor: pointer;
+  text-align: center;
  }
- /* .icon-img{
-  display: inline;
-  gap:0.5px;
-  justify-content: center;
-
  
- } */
   #hero-banner .banner-content .banner-inside-content .banner-inside-para{
     display: flex;
     flex-direction: column;
@@ -162,23 +173,6 @@ nav .logo img {
     padding-bottom: 20px;
     text-decoration: none;
   }
-
-  /* for testing  purpose  */
-   /* .banner-content button{    
-    border-radius: 1px;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    gap: 16px;
-    padding: 5px 3px;
-    background-color: #ffffff;
-    color: #30B868;
-  }  */
- /* #note-section{
-     margin-top: 10px;
-     padding-bottom: 10px;
-  } */
 
   #note-section .note-container  {
     width: 60%;
@@ -226,7 +220,7 @@ nav .logo img {
  color: #757575;
  line-height: 28px;
 }
-
+/* Think related Styles Section */
 #think-section{
   display:block;
   justify-content: center;
@@ -244,11 +238,21 @@ nav .logo img {
   line-height: 20px;
   text-align: center;
 }
-/*  Brain information section */
-#brain{
+.think-center{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+} 
 
+.btn .think-center{
+  padding: 12px 16px;
+  margin-bottom: 0 auto;
+  line-height: 50px;
+  padding-bottom: 20px;
 }
 
+/*  Brain information section */
 .brain-section{
   display: flex;
   justify-content: center;
